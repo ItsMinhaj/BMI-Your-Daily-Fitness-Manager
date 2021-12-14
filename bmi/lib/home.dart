@@ -62,7 +62,7 @@ class _HomepageState extends State<Homepage> {
         ),
         body: ListView(
           padding: const EdgeInsets.symmetric(horizontal: 10),
-          children: [
+          children: const [
             CustomForm(),
           ],
         ),
