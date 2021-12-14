@@ -37,23 +37,23 @@ class _HomepageState extends State<Homepage> {
                           child: Image.asset("assets/icon/businessman.png"),
                         )),
                   )),
-              ListTile(
+              const ListTile(
                 title: Text("Rate this app"),
                 leading: Icon(Icons.star),
               ),
-              ListTile(
+              const ListTile(
                 title: Text("Share this app"),
                 leading: Icon(Icons.share),
               ),
-              ListTile(
+              const ListTile(
                 title: Text("Send feedback"),
                 leading: Icon(Icons.feedback),
               ),
-              ListTile(
+              const ListTile(
                 title: Text("Privacy policy"),
                 leading: Icon(Icons.privacy_tip),
               ),
-              ListTile(
+              const ListTile(
                 title: Text("Exit"),
                 leading: Icon(Icons.exit_to_app),
               ),
