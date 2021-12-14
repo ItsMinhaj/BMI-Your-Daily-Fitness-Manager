@@ -84,13 +84,6 @@ class _CustomFormState extends State<CustomForm> {
           _message = 'You are obese';
         }
       }
-
-      //   _message = 'You body is fine';
-      // } else if (_bmi! < 30) {
-      //   _message = 'You are overweight';
-      // } else {
-      //   _message = 'You are obese';
-      // }
     });
   }
 
